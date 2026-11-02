@@ -10,6 +10,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
 add_executable(ksiazka_adresowa
     src/main.cpp 
     src/ksiazka_adresowa.cpp
+    src/ksiazka_uzytkownicy.cpp
 )
 
 # 3. Wskaż folder z nagłówkami
